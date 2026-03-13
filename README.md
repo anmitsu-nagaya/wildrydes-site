@@ -11,7 +11,8 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
 - Amazon DynamoDB
 - Amazon API Gateway
 
-![](\images\README\architecture.jpg)
+#### <アーキテクチャ>
+![](/images/README/architecture.jpg)
 
 - Amplify コンソールは、継続的デプロイと、HTML、CSS、JavaScript、およびユーザーのブラウザにロードされたイメージファイルなどを含む静的なウェブリソースのホストを提供します。
 - ブラウザで実行される JavaScript は、Lambda と API Gateway を使用して構築されたパブリックバックエンド API からデータを送受信します。
@@ -49,7 +50,10 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
 
 </details>
 
-![](.\images\README\title.jpg)
+#### <サイトの画面>
+![](./images/README/title.jpg)
+
+#### <Amplifyの操作画面>
 ![](./images/README/amplify.jpg)
 
 
@@ -80,9 +84,11 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
   - **重要**: 次のモジュールで Amazon Cognito ユーザープールオーソライザーを作成するために、認証トークンをコピーして保存
 </details>
 
-![](.\images\README\signup.jpg)
+#### <sign up画面>
+![](./images/README/signup.jpg)
 
-![](.\images\README\arrert.jpg)
+#### <APIがまだ設定されていないというアラート>
+![](./images/README/arrert.jpg)
 
 ### モジュール 3: サーバーレスサービスバックエンド
 - 使用技術：AWS Lambda , Amazon DynamoDB
@@ -234,7 +240,8 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
 
 </details>
 
-![](.\images\README\lambda.jpg)
+#### <Lambda操作画面>
+![](./images/README/lambda.jpg)
 
 ### モジュール 4: RESTful API をデプロイする
 - 使用技術：Amazon API Gateway
@@ -252,7 +259,7 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
   - [トークンのソース] に「Authorization」と入力
   - ride.html ウェブページからコピーした認証トークンを [承認 (ヘッダー)] フィールドに貼り付け、HTTP ステータスの [レスポンスコード] が 200 であることを確認
 
-![](.\images\README\arrert.jpg)
+![](./images/README/arrert.jpg)
 
 - 新しいリソースとメソッドを作成する
   - 概要：このセクションでは、API 内に新しいリソースを作成します。その後、そのリソース用の POST メソッドを作成し、このモジュールの最初のステップで作成した RequestUnicorn 関数によってサポートされる Lambda プロキシ統合を使用するようにメソッドを設定します。
@@ -283,11 +290,14 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
   - [ユニコーンをリクエスト] を選択。右のサイドバーの通知で、ユニコーンが向かっていることが表示され、続いてピックアップ場所にユニコーンのアイコンが移動。
 </details>
 
+#### <実行時動画>
 https://github.com/user-attachments/assets/4bcb0f4b-3cd6-4a72-beef-d48188e83e58
 
-![](.\images\README\apigateway.jpg)
+#### <APIGateway操作画面>
+![](./images/README/apigateway.jpg)
 
-![](.\images\README\dynamo.jpg)
+#### <Dynamoの中身>
+![](./images/README/dynamo.jpg)
 
 
 ## エラー対応
