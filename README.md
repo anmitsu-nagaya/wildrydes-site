@@ -35,6 +35,7 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
 - 概要：<br>継続的デプロイのビルトインでウェブアプリケーションの静的リソースをホストするように AWS Amplify を設定します。Amplify コンソールには、継続的デプロイと、フルスタックのウェブアプリをホストするための Git ベースのワークフローが用意されています。後続のモジュールでは、JavaScript を使用してこれらのページに動的機能を追加し、AWS Lambda と Amazon API Gateway で 構築されたリモート RESTful API を呼び出します。
 <details>
 <summary>ここをクリックで開く</summary>
+  
 - リージョンの選択：ap-northeast-1
 - Gitリポジトリ作成
 - Gitリポジトリの事前設定(S3バケットからコードをコピー)
@@ -49,7 +50,7 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
 </details>
 
 ![](.\images\README\title.jpg)
-![](.\images\README\amplify.jpg)
+![](./images/README/amplify.jpg)
 
 
 ### モジュール 2: ユーザーを管理する
@@ -58,6 +59,7 @@ AWSでのアプリ構築の自己学習を目的として構築しました。<b
 
 <details>
 <summary>ここをクリックで開く</summary>
+  
 - Amazon Cognito ユーザープールを作成し、アプリをユーザープールと統合する
   - ユーザープール名：WildRydes
   - アプリクライアント：WildRydesWebApp
