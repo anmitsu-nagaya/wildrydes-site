@@ -277,8 +277,8 @@ https://github.com/user-attachments/assets/4bcb0f4b-3cd6-4a72-beef-d48188e83e58
 <summary>ここをクリックで開く</summary>
 
 #### エラー内容
-チュートリアルにある以下のコードで、S3バケット（このチュートリアルに関連付けられた一般がアクセスできる既存のもの）がコピーされない
-`aws s3 cp s3://wildrydes-ap-northeast-1/WebApplication/1_StaticWebHosting/website ./ --recursive`
+チュートリアルにある以下のコードで、S3バケット（このチュートリアルに関連付けられた一般がアクセスできる既存のもの）がコピーされない<br>
+`aws s3 cp s3://wildrydes-ap-northeast-1/WebApplication/1_StaticWebHosting/website ./ --recursive`<br>
 エラー文：`fatal error: An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Access Denied`
 
 #### 原因
